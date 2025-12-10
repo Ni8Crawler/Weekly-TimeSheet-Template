@@ -52,6 +52,7 @@ This list contains the timesheet entries.  Set the list up as follows:
 
 This list contains the employee and their role. Set the list up as follows:
 
+|Type|Internal Name|Required|
 |---|---|:---:|
 |Single line of text|Title|Yes|
 |Lookup|Email|Yes|
@@ -59,7 +60,7 @@ This list contains the employee and their role. Set the list up as follows:
 
 ## Steps to import the template
 
-* [Download](https://github.com/pnp/powerapps-samples/blob/main/samples/Timesheet/solution/WeeklyTimesheet.msapp) the `.msapp` from the `solution` folder
+* [Download](https://github.com/Ni8Crawler/Weekly-TimeSheet-Template/blob/main/Weekly%20Timesheet.msapp) the `.msapp` from the `solution` folder
 * Use the `.msapp` file using **File** > **Open** > **Browse** within Power Apps Studio.
 * Select the **Data** tab
 * Remove the `BillTo` and `TimesheetEntries` data sources from the app
